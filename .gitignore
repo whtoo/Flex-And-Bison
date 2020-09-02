@@ -3,3 +3,4 @@ snazzle
 *.tab.h
 lex.yy.c
 .vscode/
+build/
