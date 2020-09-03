@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-snazzle
-*.tab.c
-*.tab.h
-lex.yy.c
+
 .vscode/
 build/
 # Prerequisites
