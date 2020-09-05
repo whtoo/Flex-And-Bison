@@ -10,9 +10,9 @@
 [0-9]           { cout << "Found an integer:" << yytext << endl; }
 [a-zA-Z0-9]+    { cout << "Found a string:" << yytext << endl; }
 %%
-int main(int,char**){
+int main(int argc,char** argv){
     // open a file handle to a particular file:
-    FILE *myfile = fopen("a.snazzle.file","r");
+    FILE *myfile = fopen(argv[1],"r");
     // make sure it's valid;
     if(!myfile){
         cout << "I'cant open a.snazzle.file!" << endl;
